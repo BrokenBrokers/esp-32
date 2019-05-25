@@ -11,8 +11,7 @@ except:
 NTP_DELTA = 3155673600
 
 host = "pool.ntp.org"
-#host = "ntp1.thuenen.de"
-#host = "192.168.178.30"
+#host = "Dein NTP Zeitserver"
 
 def time():
     NTP_QUERY = bytearray(48)
